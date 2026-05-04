@@ -56,4 +56,3 @@ Shipping Days = DATEDIFF(Orders[Order Date], Orders[Ship Date], DAY)
 - Few products generate most of the revenue (Pareto)
 - Some regions have delayed shipping
 - Stable KPIs improve trust in reports
-- 
