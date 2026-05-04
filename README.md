@@ -40,15 +40,6 @@ Rolling 12M Sales =
 CALCULATE([Total Sales], DATESINPERIOD('Date'[Date], MAX('Date'[Date]), -12, MONTH))
 
 Shipping Days = DATEDIFF(Orders[Order Date], Orders[Ship Date], DAY)
-# Dashboards
-
-1. Profitability Dashboard
-2. Executive Interactive Dashboard
-3. Discount Analysis
-4. Pareto Analysis
-5. Product Ranking
-6. Shipping Performance
-7. Time Analysis (Cumulative & Rolling 12M)
 
  # Key Insights
 
